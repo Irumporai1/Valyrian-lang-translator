@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&display=swap');
+
+:root{
+    --primary-color:#3730A3;
+    --secondary-color:#EEF2FF;
+}
+
+main{
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Hahmlet', serif;
+    background-color: var(--secondary-color);
+}
+
+
+nav{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-size: larger;
+}
+
+textarea{
+    background-color: var(--secondary-color);
+    margin: 1rem 0rem;
+    padding: 1rem;
+    width: 80%;
+    height: 12vh;
+    display: block;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: large;
+    
+
+}
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1.5rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    color: white;
+    text-align: center;
+  }
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 2rem 0rem;
+
+    padding: 1rem;
+  }
+
+footer{
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: large;
+}
+
+footer p {
+    padding: 0.6rem;
+    max-width: 900px;
+    margin: auto;
+}
